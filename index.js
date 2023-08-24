@@ -45,16 +45,3 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 setTime();
 
 setInterval(setTime, 1000);
-
-// SOCIAL PANEL JS
-const floating_btn = document.querySelector('.floating-btn');
-const close_btn = document.querySelector('.close-btn');
-const social_panel_container = document.querySelector('.social-panel-container');
-
-floating_btn.addEventListener('click', () => {
-	social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-	social_panel_container.classList.remove('visible')
-});
